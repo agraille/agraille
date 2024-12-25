@@ -20,7 +20,7 @@ void initializeStudent(struct Student *student) {
     strcpy(student->completed_projects[2], "born2beroot");
     strcpy(student->completed_projects[3], "get_next_line");
     strcpy(student->completed_projects[4], "push_swap");
-    strcpy(student->completed_projects[4], "so_long");
+    strcpy(student->completed_projects[5], "so_long");
 }
 
 void introduceStudent(const struct Student *student) {
