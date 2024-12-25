@@ -51,7 +51,3 @@ int main(void) {
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anthony-graille-594385329/)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white)](mailto:lachariotte30@gmail.com)
-
-
-
-<meta name="google-site-verification" content="ZImRxBReyzmUJkxE0Z0ci8ea8SGD38iqFwIrt_TF98c" />
