@@ -50,4 +50,5 @@ int main(void) {
 # Contact
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anthony-graille-594385329/)
+[![CodinGame](https://img.shields.io/badge/CodinGame-FFCE00?style=flat&logo=codinGame&logoColor=black)](https://www.codingame.com/profile/a6f595459899d5b746db8ee9dcd58f261407726)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white)](mailto:lachariotte30@gmail.com)
