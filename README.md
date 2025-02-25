@@ -30,7 +30,7 @@ void introduceStudent(const struct Student *student) {
     printf("Hi ! I'm %s, alias %s.\n", student->name, student->alias);
     printf("Actually student at %s.\n", student->school);
     printf("Here are some projects I have completed :\n");
-    for (int i = 0; i < 8; i++) {
+    for (int i = 0; i < 9; i++) {
         printf("- %s\n", student->completed_projects[i]);
     }
     printf("Thank you for visiting my profile, I hope you find my work interesting !");
