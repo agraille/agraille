@@ -8,7 +8,7 @@ struct Student {
     char name[42];
     char alias[42];
     char school[42];
-    char completed_projects[8][42];
+    char completed_projects[9][42];
 };
 
 void initializeStudent(struct Student *student) {
@@ -23,10 +23,11 @@ void initializeStudent(struct Student *student) {
     strcpy(student->completed_projects[5], "so_long");
     strcpy(student->completed_projects[6], "pipex");
     strcpy(student->completed_projects[7], "minishell");
+    strcpy(student->completed_projects[8], "Philosophers");
 }
 
 void introduceStudent(const struct Student *student) {
-    printf("I ! I'm %s, alias %s.\n", student->name, student->alias);
+    printf("Hi ! I'm %s, alias %s.\n", student->name, student->alias);
     printf("Actually student at %s.\n", student->school);
     printf("Here are some projects I have completed :\n");
     for (int i = 0; i < 8; i++) {
