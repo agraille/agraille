@@ -1,48 +1,35 @@
 <h1 align="center">Hi 👋,</h1>
 
-```c
-#include <stdio.h>
-#include <string.h>
+```c++
+#include <iostream>
+#include <string>
 
-struct Student {
-    char name[42];
-    char alias[42];
-    char school[42];
-    char completed_projects[11][42];
+class Student {
+private:
+    std::string name;
+    std::string alias;
+    std::string school;
+    int completed_circles;
+    int total_circles;
+
+public:
+    Student() : name("Anthony Graille"), alias("Lyricall"), school("42 Lyon"), completed_circles(4), total_circles(7) {}
+
+    void introduce() const {
+        std::cout << "Hi ! I'm " << name << ", alias " << alias << ".\n";
+        std::cout << "Actually student at " << school << ".\n";
+        std::cout << "Progress in the 42 common core: [";
+        for (int i = 0; i < total_circles; i++) {
+            std::cout << (i < completed_circles ? "🟢" : "⚪");
+        }
+        std::cout << "] " << completed_circles << "/" << total_circles << " circles completed!\n";
+        std::cout << "Thank you for visiting my profile, I hope you find my work interesting !\n";
+    }
 };
 
-void initializeStudent(struct Student *student) {
-    strcpy(student->name, "Anthony Graille");
-    strcpy(student->alias, "Lyricall");
-    strcpy(student->school, "42 Lyon");
-    strcpy(student->completed_projects[0], "libft");
-    strcpy(student->completed_projects[1], "ft_printf");
-    strcpy(student->completed_projects[2], "born2beroot");
-    strcpy(student->completed_projects[3], "get_next_line");
-    strcpy(student->completed_projects[4], "push_swap");
-    strcpy(student->completed_projects[5], "so_long");
-    strcpy(student->completed_projects[6], "pipex");
-    strcpy(student->completed_projects[7], "minishell");
-    strcpy(student->completed_projects[8], "Philosophers");
-    strcpy(student->completed_projects[9], "NetPractice");
-    strcpy(student->completed_projects[10], "cub3D");
-}
-
-void introduceStudent(const struct Student *student) {
-    printf("Hi ! I'm %s, alias %s.\n", student->name, student->alias);
-    printf("Actually student at %s.\n", student->school);
-    printf("Here are some projects I have completed :\n");
-    for (int i = 0; i < 11; i++) {
-        printf("- %s\n", student->completed_projects[i]);
-    }
-    printf("Thank you for visiting my profile, I hope you find my work interesting !");
-}
-
-int main(void) {
-    struct Student me;
-    initializeStudent(&me);
-    introduceStudent(&me);
-
+int main() {
+    Student me;
+    me.introduce();
     return 0;
 }
 ```
