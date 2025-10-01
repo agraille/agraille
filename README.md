@@ -13,7 +13,7 @@ private:
     int total_circles;
 
 public:
-    Student() : name("Anthony Graille"), alias("Lyricall"), school("42 Lyon"), completed_circles(5), total_circles(7) {}
+    Student() : name("Anthony Graille"), alias("Lyricall"), school("42 Lyon"), completed_circles(6), total_circles(7) {}
 
     void introduce() const {
         std::cout << "Hi ! I'm " << name << ", alias " << alias << ".\n";
