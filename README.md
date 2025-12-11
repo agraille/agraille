@@ -33,12 +33,6 @@ int main() {
     return 0;
 }
 ```
-## 🔧 Technologies & Tools
-
-<div align="left">
-
-![Top Langs](https://github-readme-stats-git-master-rstacruz.vercel.app/api/top-langs/?username=agraille&layout=compact)
-
 # Contact
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anthony-graille-594385329/)
