@@ -35,7 +35,7 @@ int main() {
 ```
 # Contact
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anthony-graille-594385329/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anthony-graille3/)
 [![CodinGame](https://img.shields.io/badge/CodinGame-FFCE00?style=flat&logo=codinGame&logoColor=black)](https://www.codingame.com/profile/a6f595459899d5b746db8ee9dcd58f261407726)
 [![HackTheBox](https://img.shields.io/badge/HackTheBox-111927?style=flat&logo=hackthebox&logoColor=9FEF00)](https://app.hackthebox.com/users/2402680)
 
